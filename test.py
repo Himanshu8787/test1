@@ -18,7 +18,7 @@ import subprocess
 import random
 from difflib import SequenceMatcher
 
-db = None
+ = None
 ftp_connect = None
 # ocr_link = "https://vcaiapi.cognitiveservices.azure.com//vision/v2.0/recognizeText"
 # ocr_key = "a62c68a79b754706bffddf775ab94872"
