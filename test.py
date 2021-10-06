@@ -32,7 +32,7 @@ ocr_key="a62c68a79b754706bffddf775ab94872"
 response_url = os.environ['response_url']
 guideline_link="http://orientaluat.vahancheck.com/VCWebAPI/api/AI/AIQCGuideLine"
 
-def similar(a, b):
+ similar(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 def check_print(pred_mask,pred_mask_d):
